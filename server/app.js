@@ -9,8 +9,8 @@ const app = express();
 app.use(cors());
 app.use(bodyParser.json());
 
-const key_id = 'rzp_test_l7BK8gNVAXOMxw';
-const key_secret = 'dZTEB9B0Tp99SUMr39EVSmGm';
+const key_id = 'key_id';
+const key_secret = 'key_secret';
 
 const razorpay = new Razorpay({
   key_id,
