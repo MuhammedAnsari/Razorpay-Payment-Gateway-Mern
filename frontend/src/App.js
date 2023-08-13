@@ -18,7 +18,7 @@ const App = () => {
       const orderId = responseData.orderId;
 
       const options = {
-        key: 'rzp_test_l7BK8gNVAXOMxw',
+        key: 'key_id',
         amount: amount * 100, 
         currency: 'INR',
         name: 'Payment Gateway Test',
